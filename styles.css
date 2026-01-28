@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: start;
+    background-color: rgba(38, 37, 37, 1);
+    width: 1229px;
+    height: 671px;
+    border-radius: 15px;
+}
+
+.main-menu{
+    display: flex;
+    width: 60px;
+    height: 500px;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.header-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.icon{
+    width: 28px;
+    height: 28px;
+}
+
+
+.dashboard-wrapper {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.main-title{
+    display: flex;
+    margin-top: 24px;
+    h3{
+        color: white;
+        font-weight: 400;
+    }
+}
+
+.border-box{
+    display: flex;
+    gap: 37px;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.border-1{
+    background-color: rgba(29, 29, 29, 1);
+    width: 245px;
+    height: 163px;
+    border-radius: 20px;
+    margin-top: 23px;
+}
+
+.border-2{
+    background-color: rgba(29, 29, 29, 1);
+    width: 809px;
+    height: 195px;
+    border-radius: 20px;
+    margin-top: 23px;
+}
+
+.border-3{
+    background-color: rgba(29, 29, 29, 1);
+    width: 386px;
+    height: 157px;
+    border-radius: 20px;
+    margin-top: 23px;
+}
+
+
+.slide-box{
+    display: flex;
+}
+
+.border-4{
+    background: linear-gradient(136.58deg, #7B20E2 0%, #2B1043 101.73%);
+    width: 218px;
+    height: 251px;
+    border-radius: 36px;
+    margin-top: 75px;
+    position: relative;
+}
+
+.border-5{
+    background: rgba(198, 142, 60, 1);
+    width: 218px;
+    height: 205px;
+    border-radius: 36px;
+    margin-top: 75px;
+    position: absolute;
+    top: 145px;
+    right: 360px;
+    rotate: 12deg;
+}
+
+.border-6{
+    background: rgba(47, 132, 127, 1);
+    width: 218px;
+    height: 200px;
+    border-radius: 36px;
+    margin-top: 75px;
+    position: absolute;
+    right: 350px;
+    rotate: 38deg;
+}
+
+
+.border-7{
+    background-color: rgba(29, 29, 29, 1);
+    width: 258px;
+    height: 273px;
+    border-radius: 20px;
+    margin-top: 23px;
+}
+
